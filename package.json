@@ -9,6 +9,10 @@
     "start": "npm run sass && npm run postcss",
     "prepublishOnly": "npm start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itrulia/nova-skeletons.git"
+  },
   "keywords": [
     "Skeleton",
     "CSS",
