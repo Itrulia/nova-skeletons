@@ -3,6 +3,7 @@
 
 This CSS utility library allows you to create beautiful skeleton screens without much hassle. It has been built for simplicity and maintainability.
 
+![Skeleton Screenshot](https://raw.githubusercontent.com/itrulia/nova-skeletons/master/screenshot.png)
 
 ## Demos
 
