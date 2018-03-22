@@ -1,0 +1,79 @@
+/* ==========================================================================
+   #SKELETON
+   ========================================================================== */
+
+$nova-color-skeleton-background: #eee !default;
+$nova-color-skeleton-spinner: #e7e7e9 !default;
+
+.c-skeleton {}
+
+%c-skeleton__animation {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background-color: $nova-color-skeleton-spinner;
+  background-image: linear-gradient(to right, $nova-color-skeleton-background 8%, $nova-color-skeleton-spinner 18%, $nova-color-skeleton-background 33%);
+  background-size: 800px 104px;
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0
+  }
+  100% {
+    background-position: 468px 0
+  }
+}
+
+
+.c-skeleton__figure {
+  width: 100%;
+  height: 100%;
+  @extend %c-skeleton__animation;
+}
+
+/**
+ * [1]: Emulate line height
+ */
+.c-skeleton__text {
+  height: 0.8em;
+  width: 65%;
+  margin-top: 0.3em; // [1]
+  margin-bottom: 0.3em; // [1]
+  @extend %c-skeleton__animation;
+}
+
+.c-skeleton__text--small-height {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c-skeleton__text--inline {
+  display: inline-block;
+}
+
+.c-skeleton__text--full {
+  width: 100%;
+}
+
+.c-skeleton__text--big {
+  width: 75%;
+}
+
+.c-skeleton__text--bigger {
+  width: 85%;
+}
+
+.c-skeleton__text--small {
+  width: 55%;
+}
+
+.c-skeleton__text--smaller {
+  width: 45%;
+}
+
+.c-skeleton__text--tiny {
+  width: 35%;
+}

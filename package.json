@@ -1,0 +1,26 @@
+{
+  "name": "@itrulia/nova-skeletons",
+  "version": "1.0.0",
+  "description": "CSS Utility library to create beautiful skeleton screens",
+  "main": "skeletons.css",
+  "scripts": {
+    "sass": "node-sass --source-map true skeletons.scss -o ./",
+    "postcss": "postcss skeletons.css --map --replace",
+    "start": "npm run sass && npm run postcss",
+    "prepublishOnly": "npm start"
+  },
+  "keywords": [
+    "Skeleton",
+    "CSS",
+    "nova"
+  ],
+  "author": "Karl Merkli <karlmerkli@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.20",
+    "postcss-cli": "^5.0.0",
+    "postcss-scss": "^1.0.4"
+  }
+}
