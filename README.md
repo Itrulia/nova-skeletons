@@ -19,6 +19,20 @@ npm install --save @itrulia/nova-skeletons
 
 This will add the @itrulia/nova-skeletons dependency in to your package.json.
 
+Now you can either import the SCSS or the CSS depending on what preprocessor you are using (or not using). 
+
+You can do this by in SCSS like this:
+
+```scss
+@import "node_modules/@itrulia/nova-skeletons/skeletons";
+```
+
+Or add it to your HTML like this:
+
+```html
+<link rel="stylesheet" type="text/css" href="/node_modules/@itrulia/nova-skeletons/skeletons.css">
+```
+
 ## How to use
 
 You should attach the base class `c-skeleton` to the root of your skeleton screen HTML. While this class has no styles attached to it, you can use it if you need to increase the specifity of your CSS if needed. + It also helps to keep the HTML a little bit more grouped.
