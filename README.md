@@ -109,7 +109,7 @@ To do this you will need to do the following steps:
 
 ## SCSS Configuration
 
-#### nova-color-skeleton-background
+### nova-color-skeleton-background
 Type: `color`
 Default: `#eee`
 
