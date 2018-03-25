@@ -151,7 +151,7 @@ the project gets better and better, this is also known as [The Boy Scout Rule](h
     karlmerkli@gmail.com directly instead of using issue tracker. We value your effort
     to improve the security and privacy of this project!
 - Related posts:
-  - https://www.viget.com/articles/a-bone-to-pick-with-skeleton-screens/
+  - https://www.sitepoint.com/how-to-speed-up-your-ux-with-skeleton-screens/
 
 
 ## Licensing
