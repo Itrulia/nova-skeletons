@@ -1,6 +1,6 @@
 {
   "name": "@itrulia/nova-skeletons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS Utility library to create beautiful skeleton screens",
   "main": "skeletons.css",
   "scripts": {
